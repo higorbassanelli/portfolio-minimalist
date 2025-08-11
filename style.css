@@ -102,3 +102,11 @@ a{
         padding-top: 2rem;
     }
 }
+
+.foto-circular {
+    width: 5em;           /* tamanho proporcional ao ícone fa-5x */
+    height: 5em;          /* mesmo valor para manter formato circular */
+    border-radius: 50%;   /* arredonda totalmente */
+    object-fit: cover;    /* preenche sem distorcer */
+    background-color: white; /* opcional - simula classe "white" */
+  }  
